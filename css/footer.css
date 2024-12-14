@@ -2,3 +2,41 @@
     text-decoration: underline;
     text-decoration-color: #fe7f2d ;
 }
+
+.footer-indhold {
+    padding: 10px 20px;
+    background-color: #a1c181;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon {
+    height: 40px;
+    margin: 3px;
+}
+
+.fotter-icons {
+display: flex;
+align-items: center;
+
+}
+
+.icons {
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.footer-info {
+    margin: 1em 2em;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tern-foot {
+margin-bottom: -4px;
+}

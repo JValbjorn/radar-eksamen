@@ -146,6 +146,12 @@ margin: 2em;
 
 
 /* events */
+.big-img {
+    min-width: 100%;
+    height: auto;
+    margin-top: -4px;
+}
+
 
 .dropdowns {
     margin: 1em;
@@ -165,9 +171,56 @@ margin: 2em;
     align-items: center;
 }
 
+.all-events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.event-img{
+    width: 300px; 
+    height: 200px;
+    object-fit: cover; 
+    display: flex;
+    justify-content: center;
+}
 
 .events {
+display: flex;
+flex-direction: column;
+background-color: #619b8a;
+margin: 2em;
+padding: 1em;
+max-width: 300px;
+min-height: 300px;
+}
 
+.kunstner {
+    font-weight: bold;
+    font-size: 1.5rem;
+    min-height: 3rem;
+    margin-top: 4px;
+}
+
+.beskrivelse {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.dato {
+    border: 2px solid #233d4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+.beskriv {
+width: 250px;
 }
 
 .side-numbers {
@@ -175,6 +228,7 @@ color: #fe7f2d;
 display: flex;
 justify-content: center;
 margin: 1rem;
+gap: 1em;
 }
 
 .side-numbers a {

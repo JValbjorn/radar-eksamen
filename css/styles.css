@@ -235,9 +235,10 @@ min-height: 300px;
     gap: 1em;
 }
 
-.read-more a{
+.read-more, .read-more a{
     color: #fe7f2d;
     text-decoration: none;
+    margin-top: 8px;
 }
 
 .dato {
@@ -266,4 +267,14 @@ gap: 1em;
 .side-numbers a {
     text-decoration: none;
     color: #fe7f2d;
+}
+
+
+/* Nyheder */
+
+.read-more{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+    
 }

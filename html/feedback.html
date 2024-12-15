@@ -43,17 +43,19 @@
     </header>
 
     <main>
-      <section>
+      <section class="h1">
         <h1>Feedback</h1>
         <img src="../media/tern-hor-pynt.png" alt="tern" />
       </section>
 
-      <section>
-        <p>
-          Velkommen til vores feedback-side. Her har du mulighed for at dele
+      <section class="h2">
+        <article>
+        <h2>Velkommen til vores feedback-side.</h2> 
+          <p class="p1">Her har du mulighed for at dele
           dine tanker, idéer og oplevelser med os. Din input er uvurderlig for
           at gøre Radar til det bedste spillested, det kan være.
         </p>
+
         <p>Din feedback er vigtig:</p>
         <ul>
           <li>
@@ -66,39 +68,49 @@
             <p>Dine idéer kan forme fremtidige events og tiltag</p>
           </li>
         </ul>
+    </article>
 
-        
-        
-        <img src="../media/feedback-img.jpg" alt="" />
+        <figure >
+        <img class="feed-img" src="../media/feedback-img.jpg" alt="" />
+    </figure>
+
       </section>
 
-      <section>
-        <img src="../media/tern-form-ver.png" alt="tern" />
+      <section class="full-form">
+      <section class="form">
+        <img class="form-tern" src="../media/tern-form-ver.png" alt="tern" />
         
 
 <section class="feed-form">
-            <p>
+            <p class="feed-p">
                 Vi lytter til hver eneste kommentar og forslag. Uanset om det drejer
                 sig om musikken, faciliteterne, eller noget helt tredje, så vil vi
                 gerne høre fra dig. Din mening er med til at skabe det Radar, du
                 ønsker at opleve.
               </p>
               <form action="#">
+
+                <section class="input-til-feedback">
                 <input type="radio" id="ideer" name="feedback-type" value="Ideer">   
                 <label for="consent">Jeg ønsker at dele en ide</label>
+            </section>
+            <section class="input-til-feedback">
                 <input type="radio" id="feedback" name="feedback-type" value="Feedback">   
                 <label for="consent">Jeg ønsker at dele feedback</label>
+            </section>
 
+                <section class="kommentar-felt">
                 <textarea
                 id="kommentar"
                 name="kommentar"
                 rows="20"
                 cols="60"
-                placeholder="Min ide/Mit feedback..."
+                placeholder=" Min ide/Mit feedback..."
                 aria-required="true"
               ></textarea>
+            </section>
 
-              <div class="input-til-feedback">
+              <section class="input-til-feedback">
                 <p>
                   <input
                     id="name"
@@ -110,6 +122,8 @@
                     aria-required="true"
                   />
                 </p>
+            </section>
+                <section class="input-til-feedback">
                 <p>
                   <input
                     id="email"
@@ -121,29 +135,35 @@
                     aria-required="true"
                   />
                 </p>
-              </div>
+              </section>
 
+              <section class="input-til-feedback">
               <input id="consent" name="consent" type="checkbox" value="yes" />
               <label for="consent">Jeg vil gerne kontaktes om nøddventigt, vedrørendne min ide/feedback.</label>
+            </section>
+              
+              <section class="submit">
               <p class="submit">
                 <input
                   name="submit"
                   type="submit"
                   id="submit"
                   class="submit"
-                  value="Submit"
+                  value="Submit >>"
                 />
               </p>
+            </section>
 
         </form>
-        <p>
+        <p class="feed-p">
             Tak fordi du tager dig tid til at dele dine tanker. Sammen kan vi gøre
             Radar til det ultimative spillested for alle musikelskere!
           </p>
-        <img src="../media/tern-form-ver.png" alt="tern" />
-      </section>
+       
+      </section> 
+      <img class="form-tern" src="../media/tern-form-ver.png" alt="tern" />
     </section>
-
+</section>
       
 
     </main>

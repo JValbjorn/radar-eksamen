@@ -145,7 +145,7 @@ margin: 2em;
 }
 
 
-/* events */
+/* Events/Nyheder */
 .big-img {
     min-width: 100%;
     height: auto;
@@ -235,10 +235,13 @@ min-height: 300px;
     gap: 1em;
 }
 
-.read-more, .read-more a{
+.read-more a{
     color: #fe7f2d;
     text-decoration: none;
     margin-top: 8px;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
 }
 
 .dato {
@@ -270,11 +273,6 @@ gap: 1em;
 }
 
 
-/* Nyheder */
 
-.read-more{
-    display: flex;
-    justify-content: end;
-    font-weight: bold;
-    
-}
+
+

@@ -383,4 +383,62 @@ color: #233d4d;
     margin-bottom: -4px;
 }
 
+.all-events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
+.section-nyh {
+    display: flex;
+    flex-direction: column;
+}
+
+.kunstner, .kunstner1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    min-height: 3rem;
+    margin-top: 4px;
+}
+
+.kunstner1 {
+    margin-bottom: -1rem;
+}
+
+.beskrivelse {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.beskrivelse1 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    gap: 1em;
+}
+
+.read-more a{
+    color: #fe7f2d;
+    text-decoration: none;
+    margin-top: 8px;
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.dato {
+    border: 2px solid #233d4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+.beskriv {
+width: 250px;
+}

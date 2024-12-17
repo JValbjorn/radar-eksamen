@@ -135,13 +135,11 @@ margin: 2em;
 .full-form {
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .form-tern {
     max-height: 803px; 
     width: auto;
-
 }
 
 
@@ -383,10 +381,55 @@ color: #233d4d;
     margin-bottom: -4px;
 }
 
-.all-events {
+.nyh-x-om {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin-top: 8rem;
+}
+
+.divider {
+    max-height: 803px; 
+    width: auto;
+}
+
+.beskriv-index {
+    width: 25rem;
+    margin: 1em;
+}
+
+.kunstner-index {
+    width: 20rem;
+    font-weight: bold;
+    margin: 1em;
+}
+.centrer-text {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.title2 { display: flex;
+    flex-direction: row;
+align-items: center;
+    margin-left: -1rem;
+    margin-bottom: 1rem;
+}
+
+.read-more-index {
+    margin: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.read-more-index a {
+text-decoration: none;
+color: #fe7f2d;
+font-weight: bolder;
+font-size: 1.3rem;
 }
 
 .section-nyh {
@@ -394,51 +437,25 @@ color: #233d4d;
     flex-direction: column;
 }
 
-.kunstner, .kunstner1 {
-    font-weight: bold;
-    font-size: 1.5rem;
-    min-height: 3rem;
-    margin-top: 4px;
-}
-
-.kunstner1 {
-    margin-bottom: -1rem;
-}
-
-.beskrivelse {
+.index-h2 {
+    margin: 2rem;
     display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
-}
-
-.beskrivelse1 {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    align-items: center;
-    gap: 1em;
-}
-
-.read-more a{
-    color: #fe7f2d;
-    text-decoration: none;
-    margin-top: 8px;
-    display: flex;
-    justify-content: end;
-    font-weight: bold;
-}
-
-.dato {
-    border: 2px solid #233d4d;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 2px;
-    text-align: center;
-    height: 50px;
-    width: 50px;
 }
 
-.beskriv {
-width: 250px;
+.nyh {
+    margin: 3rem;
+}
+
+.støtos-tern {
+width: 640px;
+height: auto;
+margin-bottom: 2rem;
+}
+
+.støt-os {
+   display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
 }

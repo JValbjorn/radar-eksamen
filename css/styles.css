@@ -459,3 +459,12 @@ margin-bottom: 2rem;
     flex-direction: column;
     align-items: center;
 }
+
+
+.index-fri,.index-feed {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 5rem;
+gap: 5rem;
+}

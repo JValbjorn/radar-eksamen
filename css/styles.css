@@ -21,14 +21,12 @@ color: #233d4d;
     max-width: 100%;
 }
 
-
-
 /* 404 page */
 
 .box404 {
 background-color:#a1c181;
-margin:20%;
-padding:10%;
+margin:5% 20%;
+padding:5%;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -105,12 +103,13 @@ ul {
     flex-direction: column;
     align-items: center;
     max-height: fit-content;
-
+    border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 .feed-p {
-    max-width: 20em;
+    max-width: 25em;
     margin: 1em;
+    text-align: center;
 }
 
 .submit {
@@ -132,13 +131,17 @@ ul {
 margin: 2em;
 }
 
+#ideer, #feedback, #consent {
+    margin: 0.5rem;
+}
+
 .full-form {
     margin-left: auto;
     margin-right: auto;
 }
 
 .form-tern {
-    max-height: 803px; 
+    max-height: 49rem; 
     width: auto;
 }
 
@@ -153,7 +156,7 @@ margin: 2em;
 
 .overlay-box {
     position: absolute;
-    top: 30%;
+    top: 34%;
     left: 20%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.7);
@@ -196,6 +199,7 @@ margin: 2em;
     object-fit: cover; 
     display: flex;
     justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 .events {
@@ -206,6 +210,7 @@ margin: 2em;
 padding: 1em;
 max-width: 300px;
 min-height: 300px;
+border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 .kunstner, .kunstner1 {
@@ -273,6 +278,15 @@ gap: 1em;
 
 /* frivillige */
 
+.big-img {
+    width: 300px; 
+    height: 300px;
+    object-fit: cover; 
+    display: flex;
+    justify-content: center;
+}
+
+
 .atricle-fri {
 width: 50rem;
 
@@ -290,6 +304,14 @@ flex-direction: column;
 margin-left: auto;
 margin-right: auto;
 margin: 1rem;
+align-items: center;
+}
+
+.fri-text h1 {
+    display: flex;
+align-self:self-start;
+margin-left: 20%;
+margin-top: 3%;
 }
 
 .fri-img {
@@ -317,10 +339,15 @@ justify-content: center;
 
 .fri-form {
     background-color: #a1c181;
+    border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-.input-til-frivillige, .input-til-frivillige, .kommentar-felt-fri {
+.input-til-frivillige, .kommentar-felt-fri {
     margin: 1rem 4rem;
+}
+
+#email, #name, #lastname, #kommentar, #telefon {
+    padding: 0.5rem;
 }
 
 .fri-p {
@@ -331,15 +358,17 @@ justify-content: center;
 /* Index */
 
 .big-img-index {
+    width: 300px; 
+    height: 400px;
+    object-fit: cover; 
+    display: flex;
+    justify-content: center;
     min-width: 100%;
-    height: auto;
-    margin-top: -4px;
-    display: block;
 }
 
 .overlay-box-index {
     position: absolute;
-    top: 20%;
+    top: 27%;
     left: 80%;
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.7);
@@ -360,7 +389,7 @@ justify-content: center;
 
 .events-but {
     position: absolute;
-    top: 35%;
+    top: 45%;
    left: 47%;
 
    background-color: #619b8a;
@@ -376,8 +405,12 @@ color: #233d4d;
 }
 
 .stribe-img {
+    /* min-width: 60%;
+    height: auto; */
+    object-fit: cover; 
+    display: flex;
+    justify-content: center;
     min-width: 100%;
-    height: auto;
     margin-bottom: -4px;
 }
 
@@ -391,7 +424,7 @@ color: #233d4d;
 }
 
 .divider {
-    max-height: 803px; 
+    max-height: 43rem; 
     width: auto;
 }
 
@@ -460,7 +493,6 @@ margin-bottom: 2rem;
     align-items: center;
 }
 
-
 .index-fri,.index-feed {
 display: flex;
 flex-direction: row;
@@ -468,3 +500,67 @@ justify-content: center;
 margin: 5rem;
 gap: 5rem;
 }
+
+/* Desktops and larger devices (min-width: 769px) */
+  @media screen and (min-width: 769px) {
+
+/* Error */
+/* Events + Nyheder */
+/* Feedback */
+/* Frivillige */
+/* index */
+
+
+  }
+  
+  
+  /* Tablets (min-width: 481px and max-width: 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+/* Error */
+/* Events + Nyheder */
+/* Feedback */
+/* Frivillige */
+/* index */
+
+
+
+}
+    
+
+  /* Mobile devices (max-width: 480px) */
+ @media screen and (max-width: 480px) {
+
+
+/* Error */
+/* Events + Nyheder */
+/* Feedback */
+/* Frivillige */
+/* index */
+
+    .big-img-index {
+    max-height: 13rem;
+    }
+    
+    .radar-skilt {
+        max-height: 10rem;
+    }
+    .stribe-img, .støtos-tern {
+    max-height: 19px ;
+    }
+
+    .events-but {
+        top: 12%;
+        left: 40%;
+    }
+
+    .overlay-box-index {
+        top: 10%;
+        left: 60%;
+    }
+
+    /* .hidden-img  {
+
+    } */
+    
+        }

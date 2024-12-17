@@ -284,6 +284,7 @@ gap: 1em;
     object-fit: cover; 
     display: flex;
     justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 
@@ -364,6 +365,7 @@ justify-content: center;
     display: flex;
     justify-content: center;
     min-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.7);
 }
 
 .overlay-box-index {
@@ -500,27 +502,54 @@ justify-content: center;
 margin: 5rem;
 gap: 5rem;
 }
-
-/* Desktops and larger devices (min-width: 769px) */
-  @media screen and (min-width: 769px) {
-
-/* Error */
-/* Events + Nyheder */
-/* Feedback */
-/* Frivillige */
-/* index */
-
-
-  }
   
   
   /* Tablets (min-width: 481px and max-width: 768px) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .h2 {
+        flex-direction: column;
+        align-items: center;
+      }
 
-/* Error */
+      .atricle-fri {
+        max-width: 768px;
+      }  
+
 /* Events + Nyheder */
 /* Feedback */
+
+.form-tern {
+    max-height: 44rem;
+    width: auto;
+}
+
 /* Frivillige */
+#kommentar {
+    width: 90%;
+    max-height: 15rem;
+  }
+
+  .atricle-fri {
+    width: 700px;
+  }
+
+  .p-fri {
+width: 30rem;
+  }
+
+  .fri-text h1 {
+    margin-left: 10%;
+  }
+
+  .fri-form-m-img {
+    max-width: 80%;
+    margin: 5rem;
+}
+
+.big-img {
+    height: 240px;
+  }
+
 /* index */
 
 
@@ -531,11 +560,58 @@ gap: 5rem;
   /* Mobile devices (max-width: 480px) */
  @media screen and (max-width: 480px) {
 
+    .h2 {
+        flex-direction: column;
+        margin: 1em;
+      }
 
-/* Error */
 /* Events + Nyheder */
 /* Feedback */
+
+.form {
+    flex-direction: column;
+  }
+
+  .form-tern {
+    display: none;
+  }
+
+  .feed-form {
+    width: 100%;
+  }
+
+  .kommentar-felt textarea {
+    width: 90%;
+  }
+
+
 /* Frivillige */
+#kommentar, #name, #lastname, #telefon, #email {
+    width: 90%;
+    max-height:8rem;
+  }
+
+  .atricle-fri {
+    width: 400px;
+  }
+
+  .p-fri {
+    width: 20rem;
+  }
+
+  .fri-text h1 {
+    margin-left: 12%;
+  }
+
+  .big-img {
+    height: 200px;
+  }
+
+  .fri-form-m-img {
+    max-width: 90%;
+    margin: 2rem;
+  }
+
 /* index */
 
     .big-img-index {

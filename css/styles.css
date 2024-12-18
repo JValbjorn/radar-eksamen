@@ -384,6 +384,13 @@ justify-content: center;
     align-items: center;
 }
 
+.text-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
 .radar-skilt {
     position: absolute;
     top: 2%;
@@ -530,16 +537,24 @@ gap: 5rem;
 }
 
 .overlay-box {
-    max-width: 300px;
-    max-height: 190px;
-    top: 27%;
+    max-width: 350px;
+    max-height: 200px;
+    top: 44%;
     left: 25%;
-    padding: 10px;
+    padding: 35px;
+}
+
+.text-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .kunstner1 {
     min-height: 1rem;
 margin-bottom: 1px;
+font-size: 1.3rem;
 }
 
 .read-more a {
@@ -547,13 +562,13 @@ margin-bottom: 1px;
 }
 
 .beskrivelse1 {
-    margin: 8px 2px 2px 2px;
+    margin: 2px;
 }
 
 /* Feedback */
 
 .form-tern {
-    max-height: 44rem;
+    max-height: 43rem;
     width: auto;
 }
 
@@ -615,7 +630,6 @@ width: 30rem;
 
 .tern-hor-pynt {
     max-width: 95%;
-   
 }
 
 .beskrivelse1 {
@@ -624,14 +638,21 @@ width: 30rem;
 }
 
 .overlay-box {
-    max-width: 250px;
-    max-height: 140px;
-    top: 25%;
+    max-width: 270px;
+    max-height: 150px;
+    top: 40%;
     left: 50%;
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.text-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .dropdowns {
@@ -667,7 +688,7 @@ width: 30rem;
   }
 
   .form-tern {
- max-height: 38.2rem;
+ max-height: 37.2rem;
   }
 
   .tern-hor-pynt {

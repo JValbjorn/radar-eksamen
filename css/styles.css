@@ -63,7 +63,6 @@ body {
   gap: 1em;
   font-size: 1.5rem;
 }
-
 .h2 {
   max-width: 55em;
   gap: 1.5rem;
@@ -73,16 +72,13 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-
 .p1,
 h2 {
   margin-bottom: 10px;
 }
-
 .h2 p {
   gap: 1em;
 }
-
 ul {
   margin-left: 20px;
 }
@@ -711,11 +707,11 @@ ul {
   }
 
   .atricle-fri {
-    width: 400px;
+    width: 83.33%;
   }
 
   .p-fri {
-    width: 20rem;
+    width: 66%;
   }
 
   .fri-text h1 {
@@ -760,11 +756,11 @@ ul {
   }
 
   .stribe-img {
-    width: 480px;
+    width: 100%;
   }
 
   .section-nyh {
-    width: 480px;
+    width: 100%;
   }
 
   .beskriv-index {

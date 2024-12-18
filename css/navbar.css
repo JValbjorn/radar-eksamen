@@ -94,6 +94,8 @@
 
   .logolinks {
     flex-direction: column;
+    z-index: 10000000;
+    position: relative;
   }
 
   .nav-links {

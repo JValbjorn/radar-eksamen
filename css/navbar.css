@@ -64,6 +64,7 @@
   color: #233d4d;
   background-color: #a1c181;
   padding: 1%;
+  position: relative;
 }
 
 /* Mobile Devices (max-width: 768px) */
@@ -107,10 +108,20 @@
     display: block;
     align-self: flex-end;
     padding-left: 10px;
+    z-index: 1000;
   }
 
   .menu-checkbox:checked ~ .logolinks .nav-links {
     display: flex;
+  }
+
+.overlay-box {
+    position: relative;
+    z-index: 900;
+  }
+  .menu-checkbox:checked ~ .overlay-box .text-overlay .beskriv .kunstner1 {
+    display: none;
+    top: 80%;
   }
 }
 
